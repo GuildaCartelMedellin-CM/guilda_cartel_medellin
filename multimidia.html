@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8"/>
+  <title>Cartel Medellín - CM</title>
+  <link rel="stylesheet" href="_css/estilo.css"/>
+  <link rel="stylesheet" href="_css/midia.css"/>
+</head>
+<script src="_javascript/funcoes.js"></script>
+<body>
+  <div id="interface">
+    <header id="cabecalho">
+    <hgroup>
+        <h1>Cartel Medellín - CM</h1>
+        <h2>Os inquietos irão dominar o mundo!</h2>
+        </hgroup>
+         
+        <img id="logomarcaum" src="_imagens/multimidia.png"/> 
+
+<nav id="menu">
+  <h1>Menu Principal</h1>
+   <ul type="disc">
+     <li onmouseover="mudaFoto('_imagens/home.png')" onmouseout="mudaFoto('_imagens/multimidia.png')"><a href="index.html">Home</a></li>
+     <li onmouseover="mudaFoto('_imagens/fotos.png')" onmouseout="mudaFoto('_imagens/multimidia.png')"><a href="fotos.html">Fotos</a></li>
+     <li onmouseover="mudaFoto('_imagens/multimidia.png')" onmouseout="mudaFoto('_imagens/multimidia.png')"><a href="multimidia.html">Multimídia</a></li>
+     <li onmouseover="mudaFoto('_imagens/contato.png')" onmouseout="mudaFoto('_imagens/multimidia.png')"><a href="fale-conosco.html">Fale conosco</a></li>
+   </ul>
+</nav>
+    </header>
+
+<section id="corpo-muultimidia">
+ <article id="noticia-principal">
+  <header id="cabecalho-artigo">
+  <hgroup>
+   <h1>Cartel Medellín - CM > Multimídia</h1>
+   <h2>Sons e Vídeos</h2>
+   <h4>por Daniel Vilela</h4>
+   <h5 class="direita">Atualizado em 01/Julho/2019</h5>
+  </hgroup>
+</header>
+
+<p>Aqui iremos tentar postar vídeos de partidas do nosso clã e outros vídeos interativos.</p>
+
+<div id="tv-radio">
+  <audio id="musica" controls="controls">
+    <source src="_midia/musica-ff.mp3" type="audio/mpeg"/>
+        <source src="_midia/musica-ff.m4a" type="audio/x-aac"/>
+            <source src="_midia/musica-ff.ogg" type="audio/ogg"/>
+  </audio>
+  
+    <iframe id="filme" width="480" height="315" src="https://www.youtube.com/embed/alqeOuoRmDU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</div>
+</article>
+</section>
+<footer id="rodape">
+<p>Copyright 2019 - by Daniel da Silva Vilela</br>
+<a href="https://www.youtube.com/channel/UCMajGhOo8J9H0vCmQKqwImw" target="_blank">Youtube</a> | 
+<a href="https://www.instagram.com/?hl=pt-br" target="_blank">Instagram</a></p>
+</footer>
+</div>
+</body>
+</html>

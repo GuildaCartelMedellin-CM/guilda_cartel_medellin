@@ -1,0 +1,250 @@
+@charset "UTF-8";
+
+body{
+	font-family: Comic Sans MS, sans-serif;
+	background-color: #949191;
+	color: #252323;
+}
+
+p{
+	text-align: justify;
+	text-indent: 50px;
+}
+
+/*Formatação da Interface*/
+
+div#interface {
+	width: 1200px;
+	background-color: #dddddd;
+	margin: -20px auto 10px auto;
+	box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+	padding: 10px;
+}
+
+div#interface header#cabecalho h1{
+	display: none;
+}
+
+div#interface header#cabecalho h2{
+	display: none;
+}
+
+/*Formatação do Cabeçalho*/
+
+header#cabecalho {
+	border-bottom: 1px #606060 solid;
+	height: 200px;
+	background: url("../_imagens/fundo-cabecalho.jpg") no-repeat;
+}
+
+header#cabecalho img#logomarcaum{
+	position: absolute;
+	left: 1150px;
+	top: 160px;
+}
+
+/* Formatação de imagens com legendas */
+
+figure.foto-legenda {
+	position: relative;
+	border: 8px solid white;
+	box-shadow: 1px 1px 4px black;
+}
+
+figure.foto-legenda img {
+	width: 100%;
+	height: 100%;
+}
+
+figure.foto-legenda figcaption{
+	opacity: 0;
+	position: absolute;
+	top: 0px;
+	background-color: rgba(0,0,0,.4);
+	color: white;
+	width: 100%;
+	height: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+	transition: opacity 1s;
+}
+
+figure.foto-legenda:hover figcaption{
+	opacity: 1;
+}
+
+/* Formatação do menu de navegação*/
+
+nav#menu{
+	display: block;
+}
+
+nav#menu ul {
+list-style: none;
+text-transform: uppercase;
+position: absolute;
+top: -20px;
+left: 700px;
+}
+
+nav#menu li{
+	display: inline-block;
+	background-color: #dddddd;
+	padding: 10px;
+	margin: 4px;
+	-webkit-transition: background-color 1s;
+	-moz-transition: background-color 1s;
+	-o-transition: background-color 1s;
+	-ms-transition: background-color 1s;
+	transition: background-color 1s;
+}
+
+nav#menu li:hover{
+	background-color: #606060;
+}
+
+nav#menu h1{
+	display: none;
+}
+
+nav#menu a{
+	color: #000000;
+	text-decoration: none;
+}
+
+nav#nenu a:hover{
+	color: #ffffff;
+}
+
+/* Formatação do corpo*/
+
+section#corpo {
+	display: block;
+	width: 640px;
+	float: left;
+	border-right: 1px solid #606060;
+	padding-right: 15px;
+}
+
+/* Formatação do article (artigo)*/
+
+article#noticia-principal h2{
+	font-size: 15pt;
+	color: black;
+	background-color: #a7a7a7;
+	padding: 5px 0px 5px 10px;
+	margin: 10px 0px 10px 0px;
+}
+
+/*Formatação do cabecalho do article (artigo) */
+
+header#cabecalho-artigo h1{
+	font-family: Geometr415 Blk BT, sans-serif;
+	font-size: 35px;
+	color: #393636;
+	padding: 0px;
+	margin-bottom: 0px;
+}
+
+header#cabecalho-artigo h2{
+	font-family: Sillii Willinn, sans-serif;
+	font-size: 25px;
+	color: #e47e13;
+	padding: 0px;
+	margin-top: 0px;
+	background-color: #dddddd;
+}
+
+header#cabecalho-artigo h3{
+	font-family: Arial, sans-serif;
+	font-size: 20px;
+	color: black;
+	margin-bottom: 0px;
+}
+
+header#cabecalho-artigo h4{
+	font-family: Arial, sans-serif;
+	font-size: 15px;
+	color: black;
+	margin: 0px;
+}
+
+header#cabecalho-artigo h5{
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	color: black;
+}
+
+.direita{
+	text-align: right;
+}
+
+/* Formatação da tabela de líderes*/
+
+table#tabeladelideres {
+	border: 1px solid #606060;
+	border-spacing: 0px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+table#tabeladelideres td{
+	border: 1px solid #606060;
+	padding: 10px;
+	text-align: center;
+}
+
+table#tabeladelideres td.ce {
+color: #ffffff;
+background-color: #606060;
+font-weight: bold;
+}
+
+table#tabeladelideres td.cd{
+color: black;
+background-color: #e47e13;
+font-weight: bold;
+}
+
+table#tabeladelideres caption{
+	color: black;
+	font-size: 15pt;
+	font-weight: bold;
+}
+
+/* Formatação corpo do lado direito*/
+
+aside#corpodireita {
+	display: block;
+	width: 510px;
+	float: right;
+	background-color: #c4c0c0;
+	padding: 10px;
+	margin-top: 20px;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.5);
+}
+
+aside#corpodireita h2{
+    font-family: Arial, sans-serif;
+    font-size: 20pt;
+    color: black;
+}
+
+aside#corpodireita h3{
+	background-color: #999999;
+	font-size: 13pt;
+	color: black;
+	padding: 5px;
+}
+
+/* Formatação do rodapé*/
+
+footer#rodape {
+	clear: both;
+	border-top: 1px solid #606060;
+}
+
+footer#rodape p{
+	text-align: center;
+}
+
